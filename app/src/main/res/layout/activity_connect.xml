@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/minima"
+    tools:context=".ConnectActivity">
+
+
+    <Switch
+        android:id="@+id/switch_wifi"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:checked="false"
+        android:text="  Turn On Wi-Fi"
+        android:shadowColor="#ffff"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/darker_gray"
+        tools:layout_editor_absoluteX="284dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/Discover"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="300dp"
+        android:background="@drawable/rounded_button"
+        android:shadowColor="#000"
+        android:text="Discover"
+        android:textSize="20sp"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <ListView
+        android:id="@+id/peerListView"
+        style="@style/Widget.AppCompat.Light.ListView.DropDown"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginBottom="150dp"
+
+        android:cacheColorHint="@color/colorAccent"
+        android:scrollbars="vertical"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/connectionStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="50dp"
+        android:text="Connection Status" />
+
+    <EditText
+        android:id="@+id/writeMsg"
+        android:layout_width="330dp"
+        android:textColor="@color/colorAccent"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_alignParentBottom="true"
+        android:inputType="textPersonName"
+        android:text="Type Your Message" />
+
+    <ImageButton
+        android:id="@+id/sendButton"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="5dp"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+    <TextView
+        android:id="@+id/readMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginStart="150dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:text="Message" />
+
+
+
+</RelativeLayout>

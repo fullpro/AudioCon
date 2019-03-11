@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AudioCon</string>
+    <string name="host">HOST</string>
+    <string name="connect">CONNECT</string>
+    <string name="best_experienced_with_headphones">*Best Experienced with headphones</string>
+
+
+</resources>

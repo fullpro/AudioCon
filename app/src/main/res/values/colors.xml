@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f533383d</color>
+    <color name="colorPrimaryDark">#313b3b</color>
+    <color name="colorAccent">#ebc0cad5</color>
+    <color name="LightGrey">#645757</color>
+    <color name="btColor">#c86b6d71</color>
+
+    <color name="black_overlay">#bbcec5c5</color>
+</resources>
